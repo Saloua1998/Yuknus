@@ -16,7 +16,7 @@ const data = {
             category: 'Yuknus',
             image: '/images/Y2.jpg',
             price: 34.99,
-            rating: 4.5,
+            rating: 3.5,
             numReviews: 10,
             description: 'hand made product',
         },

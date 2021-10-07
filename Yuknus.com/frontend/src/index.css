@@ -28,7 +28,7 @@ body{
 header{
   grid-area: header;
   background-color: limegreen;
-
+  border-bottom: 2px solid black;
 }
 main{
   grid-area: main;
@@ -38,6 +38,7 @@ footer{
   grid-area: footer;
   background-color: limegreen;
   color: white;
+  border-top: 2px solid black;
 }
 /* Common */
 h1{
@@ -86,7 +87,7 @@ img.medium{
 
 /* Card */
 .card {
-  border: 0.1rem grey solid;
+  border: 0.1rem black solid;
   background-color: gainsboro;
   border-radius: 0.5rem;
   margin: 0.5rem;
@@ -99,10 +100,14 @@ img.medium{
   margin-bottom: 0.5rem;
 }
 .price{
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 /* Rating */
 .rating span{
   color:#f0c040;
   margin: 0.1rem;
+}
+.rating span:last-child{
+  color: black;
+  font-size: 1.3rem;
 }
