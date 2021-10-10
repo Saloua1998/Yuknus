@@ -55,6 +55,15 @@ a{
 a:hover{
   color: brown;
 }
+ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+li{
+  margin-top: 1rem;
+  
+}
 /* Header */
 header a{
   color: white;
@@ -73,6 +82,15 @@ a.brand{
 }
 .row.center{
   justify-content: center;
+}
+.row.top{
+  align-items: flex-start;
+}
+.col-1{
+  flex: 1 1 25rem;
+}
+.col-2{
+  flex: 2 1 50rem;
 }
 /* Image */
 img{
