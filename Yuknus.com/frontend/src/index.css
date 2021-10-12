@@ -64,6 +64,28 @@ li{
   margin-top: 1rem;
   
 }
+button{
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem gray solid;
+  font-size: 1.6rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(50, 205, 50);
+  cursor: pointer;
+}
+button:hover{
+  border: 0.1rem black solid;
+  background-color: rgb(50, 155, 50);
+}
+button.primary{
+  background-color: rgb(50, 205, 50);
+}
+button.block{
+  width: 100%;
+}
+
 /* Header */
 header a{
   color: white;
@@ -102,7 +124,9 @@ img.medium{
   width:25rem;
   height: 25rem;
 }
-
+img.large{
+  width: 100%;
+}
 /* Card */
 .card {
   border: 0.1rem black solid;
@@ -128,4 +152,13 @@ img.medium{
 .rating span:last-child{
   color: black;
   font-size: 1.3rem;
+}
+/* Alert */
+.succes {
+  color: #20a020;
+  font-weight: bold;
+}
+.error{
+  color:#a02020;
+  font-weight: bold;
 }
