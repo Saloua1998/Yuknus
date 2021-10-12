@@ -1,0 +1,16 @@
+{
+  "name": "yuknus",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Customers can buy Yuknus(fluffy fantasy bears) on this website.\r They can also customize their own Yuknu and send this request to my client.\r My client will then sketch this idea and send this via mail back.\r When the Customer is satisfied with this idea a payment request will be send.\r The customer can also see upcoming events (e.g. Halloween, Castlefest).",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  }
+}
