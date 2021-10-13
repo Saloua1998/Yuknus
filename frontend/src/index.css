@@ -162,3 +162,16 @@ img.large{
   color:#a02020;
   font-weight: bold;
 }
+.alert{
+  padding: 1rem;
+  border: 0.1rem solid transparent;
+  border-radius: 0.5rem;
+}
+.alert-info{
+  color: darkblue;
+  background-color: white;
+}
+.alert-danger{
+  color: darkred;
+  background-color: lightcoral;
+}
